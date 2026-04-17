@@ -64,9 +64,8 @@ img {
 .brand img {
   width: 58px;
   height: 58px;
-  border-radius: 14px;
-  object-fit: cover;
-  box-shadow: 0 10px 30px rgba(25, 54, 232, 0.12);
+  object-fit: contain;
+  filter: drop-shadow(0 10px 24px rgba(25, 54, 232, 0.12));
 }
 
 .brand strong,
@@ -246,7 +245,7 @@ img {
 
 .hero-card-top img {
   width: 104px;
-  border-radius: 22px;
+  object-fit: contain;
 }
 
 .hero-card-top h2 {
